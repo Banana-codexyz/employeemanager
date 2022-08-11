@@ -3,18 +3,15 @@ package com.nguyenz.employeemanager.service;
 import com.nguyenz.employeemanager.exception.UserNotFoundException;
 import com.nguyenz.employeemanager.model.Employee;
 import com.nguyenz.employeemanager.repo.EmployeeRepo;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
-
 @Service
 public class EmployeeService {
 
     private final EmployeeRepo employeeRepo;
 
-    @Autowired
     public EmployeeService(EmployeeRepo employeeRepo) {
         this.employeeRepo = employeeRepo;
     }
