@@ -1,2 +1,2 @@
 # employeemanager
-Spring boot + Angular App to manage employees
+Spring boot backend to manage employees
